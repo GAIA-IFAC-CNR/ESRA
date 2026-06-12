@@ -276,9 +276,11 @@ if st.button("Generate Report"):
 with st.expander("About Us"):
     st.markdown("""
     #### Original paper reference
-    Sestaioni et al. (2026).  
-    *Title of the paper*.  
-    Journal Name. DOI: [doi link]
+    Davide Sestaioni, Simone Ventisette, Giulia Ciacci, Pasquale Palladino, Andrea Barucci, Maria Minunni, Simona Scarano (2026).  
+    *Antibody-Free SPR Detection of Human Myoglobin in Serum by a Sandwich Configuration of Epitope-Imprinted Nanofilms and Nanoparticles*.  
+    ACS Sensors 
+    DOI: [doi link]
+    Cite as:[]
 
     ---
     
