@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+peptides
+plotly
+openpyxl
+scikit-learn
+umap-learn
+matplotlib
