@@ -8,7 +8,7 @@ Starting from a protein (or peptide sequence), the software:
 
 * Generates all unique subsequences of length 7–8 amino acids.
 * Computes physicochemical descriptors using the Python package `peptides`.
-* Applies classification rules.
+* Applies 10 classification rules.
 * Scores each peptide according to the number of satisfied rules.
 * Produces a ranked report highlighting the most promising candidates.
 * Exports results as an Excel file.
@@ -76,6 +76,8 @@ A browser window will open automatically.
 
 If it does not open, copy the local URL shown in the terminal and paste it into your browser.
 
+(You might need to create a Streamlit account)
+
 ---
 
 ## Using the Application
@@ -102,7 +104,7 @@ Download the Excel file using the provided download button.
 
 ### Step 5
 
-To stop the execution press ctrl+C inside the terminal.
+To stop the execution press CTRL+C inside the terminal.
 
 ---
 
