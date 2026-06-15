@@ -1,4 +1,4 @@
-# ESRA
+# ESRA - Epitope Selection Rational Approach
 
 ## Overview
 
