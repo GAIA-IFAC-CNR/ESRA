@@ -6,16 +6,16 @@ import io
 
 st.set_page_config(page_title="ESRA - Epitope Selection Rational Approach", layout="wide")
 
-col1, col2, col3 = st.columns([1,1,1])
+col1, col2, col3, col4, col5 = st.columns([1,1,1,1,1])
 
 with col1:
-    st.image("logos/logo_unifi.svg", width=120)
-
-with col2:
-    st.image("logos/logo_cnr.png", width=120)
+    st.image("logos/logo_unifi.svg", width=200)
 
 with col3:
-    st.image("logos/logo_unipi.png", width=120)
+    st.image("logos/logo_cnr.png")#, width=250)
+
+with col5:
+    st.image("logos/logo_unipi.png")#, width=250)
 
 st.title("ESRA - Epitope Selection Rational Approach")
 
@@ -287,17 +287,21 @@ if st.button("Generate Report"):
 with st.expander("About Us"):
     st.markdown("""
     #### Original paper reference
-    Davide Sestaioni, Simone Ventisette, Giulia Ciacci, Pasquale Palladino, Andrea Barucci, Maria Minunni, Simona Scarano (2026).  
+    Davide Sestaioni, Simone Ventisette, Giulia Ciacci, Pasquale Palladino, Andrea Barucci, Maria Minunni, Simona Scarano.  
     *Antibody-Free SPR Detection of Human Myoglobin in Serum by a Sandwich Configuration of Epitope-Imprinted Nanofilms and Nanoparticles*.  
-    ACS Sensors 
+    ACS Sensors, 2026 
     DOI: [doi link]
     Cite as:[]
 
     ---
     
     #### Research group
-    Institute Name  
-    University / CNR affiliation  
+    Department of Chemistry “Ugo Schiff’, University of Florence, Via della Lastruccia, 3-13, 50019, Sesto Fiorentino, Italy
 
-    Contact: email@domain.it
+    Institute of Applied Physics “Nello Carrara”, National Research Council, Via Madonna del Piano 10, Sesto Fiorentino, 50019, Florence, Italy
+
+    Department of Pharmacy, University of Pisa, Via Bonanno, 6, 56126, Pisa, Italy
+  
+
+    Contact: simona.scarano@unifi.it
     """)
