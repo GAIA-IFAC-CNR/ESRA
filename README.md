@@ -128,13 +128,13 @@ Only peptides satisfying at least 5 consensus rules are retained.
 An example sequence is available in:
 
 ```text
-examples/example_sequence.txt
+examples/sequence_MYG.txt
 ```
 
 An example report is available in:
 
 ```text
-examples/example_output.xlsx
+examples/example_MYG_Consensus_Report.xlsx
 ```
 
 ---
