@@ -6,6 +6,17 @@ import io
 
 st.set_page_config(page_title="ESRA - Epitope Selection Rational Approach", layout="wide")
 
+col1, col2, col3 = st.columns([1,1,1])
+
+with col1:
+    st.image("logos/logo_unifi.png", width=120)
+
+with col2:
+    st.image("logos/logo_cnr.png", width=120)
+
+with col3:
+    st.image("logos/logo_unipi.png", width=120)
+
 st.title("ESRA - Epitope Selection Rational Approach")
 
 # ==============================
