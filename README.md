@@ -90,17 +90,19 @@ Insert:
 
 ### Step 2
 
-Click:
-
-**Generate Report**
+Click: **Generate Report**
 
 ### Step 3
 
 Inspect the generated report.
 
-### Step 5
+### Step 4
 
 Download the Excel file using the provided download button.
+
+### Step 5
+
+To stop the execution press ctrl+C inside the terminal.
 
 ---
 
@@ -153,7 +155,8 @@ DOI: DOI_TO_BE_INSERTED
 
 Principal investigator: 
 
-Simona Scarano
+**Simona Scarano**
+
 Department of Chemistry “Ugo Schiff’, University of Florence, Via della Lastruccia, 3-13, 50019, Sesto Fiorentino, Italy
 
 Email: simona.scarano@unifi.it
