@@ -25,7 +25,7 @@ This software accompanies the following publication:
 
 ACS Sensors, 2026
 
-DOI: DOI_TO_BE_INSERTED
+DOI: 10.1021/acssensors.6c01540
 
 ---
 
