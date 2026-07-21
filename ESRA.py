@@ -26,7 +26,6 @@ st.title("ESRA - Epitope Selection Rational Approach")
 name = st.text_input("Sequence name")
 sequence = st.text_input("Sequence")
 
-#st.subheader("Consensus Rules Thresholds")
 
 rules_config = {
     'E4':               {'op': '<=', 'thresh': -0.091},
@@ -49,11 +48,9 @@ col1, col2 = st.columns([8,1])
 with col2:
     if st.button("Reset", type="primary"):
 
-        # Svuota i campi input
         st.session_state["sequence"] = ""
         st.session_state["sequence_name"] = ""
 
-        # Cancella risultati calcolati
         keys_to_clear = [
             "seq_df",
             "report_df",
@@ -290,8 +287,7 @@ with st.expander("About Us"):
     Davide Sestaioni, Simone Ventisette, Giulia Ciacci, Pasquale Palladino, Andrea Barucci, Maria Minunni, Simona Scarano.  
     *Antibody-Free SPR Detection of Human Myoglobin in Serum by a Sandwich Configuration of Epitope-Imprinted Nanofilms and Nanoparticles*.  
     ACS Sensors, 2026 
-    DOI: [doi link]
-    Cite as:[]
+    DOI: 10.1021/acssensors.6c01540
 
     ---
     
